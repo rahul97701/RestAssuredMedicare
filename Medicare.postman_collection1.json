@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "a2c79c09-25f4-4fc3-bdc0-578b7e042774",
+		"name": "Medicare",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22573863"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/medicare/json/data/category/2/products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/medicare/json/data/category/2/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"medicare",
+						"json",
+						"data",
+						"category",
+						"2",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/medicare/show/all/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/medicare/show/all/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"medicare",
+						"show",
+						"all",
+						"products"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
